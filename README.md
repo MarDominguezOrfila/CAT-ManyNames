@@ -1,15 +1,19 @@
 # CAT ManyNames
 
-CAT ManyNames is the Catalan version of the ManyNames dataset (https://github.com/amore-upf/manynames), suitable for training Language & Vision models in the task of object naming. The corpus consists of more than 23K images and their corresponding annotations. For an illustration see the images below: 
+CAT ManyNames és la versió en català de ManyNames (https://github.com/amore-upf/manynames) adequat per entrenar models de llenguatge i visió en la tasca de "object naming". El corpus consta de més de 23.000 imatges i les seves corresponents anotacions. Per a un exemple vegeu les imatges següents:
+
+*CAT ManyNames is the Catalan version of the ManyNames dataset (https://github.com/amore-upf/manynames) suitable for training Language & Vision models in the task of object naming. The corpus consists of more than 23K images and their corresponding annotations. For an illustration see the images below:*
 
 
 ![image](https://user-images.githubusercontent.com/96442172/175773208-d5be113e-e348-45b8-995a-173ccf9a2341.png)
 
 # Human-annotated test set
 
-The Human-annotated test set has been built to evaluate the quality of the CAT ManyNames dataset. Its corpus consists of 1,072 images and their corresponding annotations (ca. 10 annotations per image).
+El "human-annotated test set" s'ha creat per avaluar la qualitat del CAT ManyNames. El seu corpus consta de 1.072 imatges i les seves corresponents anotacions (aproximadament 10 anotacions per imatge).
 
-# Notation
+*The Human-annotated test set has been built to evaluate the quality of the CAT ManyNames dataset. Its corpus consists of 1,072 images and their corresponding annotations (ca. 10 annotations per image).*
+
+# Notació / Notation
 
 
 | Abbreviation | Description |
@@ -19,11 +23,15 @@ The Human-annotated test set has been built to evaluate the quality of the CAT M
 |domain	       |Categorisation of objects into *gent*, *animals_plantes*, *vehicles*, *menjar*, *casa*, *edificis*, and *roba*.
 
 
-# Data Files
+# Fitxers de Dades / Data Files
 
-The dataset is provided in a tab-separated text file (.tsv). The first row contains the column labels. Nested data is stored as Python dictionaries (i.e., "{key: value}"). 
+El CAT ManyNames i el *Human-annotated test set* es proporcionen en un fitxer de text separat per tabulacions (.tsv). Les primeres files contenen els noms de les columnes. Les dades jerarquitades s'emmagatzemen com a diccionaris de Python (és a dir, "{key: value}").
 
-The columns are labelled as follows (the most important columns are listed first):
+Els noms de les columnes són els següents (les columnes més importants estan enumerades primer):
+
+*The dataset and the human-annotated test set are provided in a tab-separated text file (.tsv). The first rows contain the column labels. Nested data is stored as Python dictionaries (i.e., "{key: value}"). 
+
+The columns are labelled as follows (the most important columns are listed first):*
 
 |Column             |Type	 |Description |
 | --- | --- | --- |
@@ -40,11 +48,13 @@ The columns are labelled as follows (the most important columns are listed first
 |*jaccard_similarity* (only available for the test split)| int  | Jaccard similarity index of the responses column in CAT_manynames.tsv and human_annotated_testset.tsv |
 |*raw_responses* (only available for the human annotated test set)| dict | Responses before being corrrected and filtered and their counts |
 
-# Citing CAT ManyNames
+# Com citar el CAT ManyNames / Citing CAT ManyNames
 
-# About
+# Informació addicional / Additional information
 
-ManyNames is licensed under a Creative Commons Attribution 4.0 International License. 
+CAT ManyNames té una llicència Creative Commons Attribution 4.0 International License.
+Aquest projecte ha estat recolçat per la unitat de Text Mining del Barcelona Supercomputing Center.
 
-This project was supported by the Text Mining unit at the Barcelona Supercomputing Center. 
+*CAT ManyNames is licensed under a Creative Commons Attribution 4.0 International License. 
+This project was supported by the Text Mining unit at the Barcelona Supercomputing Center.*
 

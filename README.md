@@ -9,7 +9,6 @@ CAT ManyNames is the Catalan version of the ManyNames dataset (https://github.co
 
 
 | Abbreviation | Description |
-|     :---:    |    :---:    |
 | --- | --- |
 |MN	           |ManyNames    |
 |VG	           |VisualGenome |

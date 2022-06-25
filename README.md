@@ -1,6 +1,6 @@
 # CAT ManyNames
 
-CAT ManyNames és la versió en català de ManyNames (https://github.com/amore-upf/manynames), un conjunt de dades adequat per entrenar models de llenguatge i visió en la tasca d'assignació de nom d'objectes. El corpus consta de més de 23.000 imatges i les seves corresponents anotacions. Per a un exemple vegeu les imatges següents:
+CAT ManyNames és la versió en català de ManyNames (https://github.com/amore-upf/manynames), un conjunt de dades adequat per entrenar models de llenguatge i visió en la tasca d'assignació de nom a objectes. El corpus consta de més de 23.000 imatges i les seves corresponents anotacions. Per a un exemple vegeu les imatges següents:
 
 *CAT ManyNames is the Catalan version of the ManyNames dataset (https://github.com/amore-upf/manynames) suitable for training Language & Vision models in the task of object naming. The corpus consists of more than 23K images and their corresponding annotations. For an illustration see the images below:*
 

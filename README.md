@@ -10,7 +10,7 @@ CAT ManyNames is the Catalan version of the ManyNames dataset (https://github.co
 
 | Abbreviation | Description |
 |     :---:    |    :---:    |
+| --- | --- |
 |MN	           |ManyNames    |
-|     :---     |    :---     |
 |VG	           |VisualGenome |
 |domain	       |Categorisation of objects into *gent*, *animals_plantes*, *vehicles*, *menjar*, *casa*, *edificis*, and *roba*.

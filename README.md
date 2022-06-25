@@ -14,7 +14,9 @@ CAT ManyNames is the Catalan version of the ManyNames dataset (https://github.co
 |VG	           |VisualGenome |
 |domain	       |Categorisation of objects into *gent*, *animals_plantes*, *vehicles*, *menjar*, *casa*, *edificis*, and *roba*.
 
-#Data Files
+
+# Data Files
+
 The dataset is provided in a tab-separated text file (.tsv). The first row contains the column labels. Nested data is stored as Python dictionaries (i.e., "{key: value}"). 
 
 The columns are labelled as follows (the most important columns are listed first):

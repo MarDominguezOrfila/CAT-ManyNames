@@ -13,7 +13,7 @@ El *Human-annotated test set* s'ha creat per avaluar la qualitat del CAT ManyNam
 
 *The Human-annotated test set has been built to evaluate the quality of the CAT ManyNames dataset. Its corpus consists of 1,072 images and their corresponding annotations (ca. 10 annotations per image).*
 
-# Notació / Notation
+# Notació / *Notation*
 
 
 | Abreviació / *Abbreviation* | Descripció / *Description* |
@@ -23,7 +23,7 @@ El *Human-annotated test set* s'ha creat per avaluar la qualitat del CAT ManyNam
 |domain	       | Categorització dels objectes en / *Categorisation of objects into* *gent*, *animals_plantes*, *vehicles*, *menjar*, *casa*, *edificis*, *roba*.
 
 
-# Fitxers de Dades / Data Files
+# Fitxers de Dades / *Data Files*
 
 El CAT ManyNames i el *Human-annotated test set* es proporcionen en un fitxer de text separat per tabulacions (.tsv). Les primeres files contenen els noms de les columnes. Les dades jerarquitades s'emmagatzemen com a diccionaris de Python (és a dir, "{key: value}").
 
@@ -40,7 +40,7 @@ Els noms de les columnes són els següents (les columnes més importants estan 
 |*domain*             | str  |	El domini de MN de l'objecte / *The MN domain of the object* |
 |*incorrect* (no disponible per al *Human_annotated test set* / *not avalilable for the Human-annotated test set*)   |	dict |	Respostes incorrectes amb el seu recompte / *Incorrect responses and their counts* |
 |*singletons* (no disponible per al *Human_annotated test set* / *not available for the human-annotated test set*)        | dict |	Totes les respostes que s'han donat només una vegada i no són sinònims o hiperònims del nom principal (aquestes s'inclouen a *responses*) / *All responses which were given only once and are not synonyms or hypernyms of the topname (these are included in responses)* |
-|*total_responses*    |	int  | Suma total de les respostes corrected / *Sum count of correct responses* |
+|*total_responses*    |	int  | Suma total de les respostes correctes / *Sum count of correct responses* |
 |*split*              |	str  |	Ús de les imatges en *training*, *test* i *validation* / *Use of the image in training vs. test vs. validation* |
 |*vg_object_id*       |	int  |	L'id de l'objecte a VisualGenome / *The VisualGenome id of the object* |
 |*vg_image_id*        |	int  |	L'id de la imatge a VisualGenome / *The VisualGenome id of the image* |
@@ -48,9 +48,9 @@ Els noms de les columnes són els següents (les columnes més importants estan 
 |*jaccard_similarity* (només disponible per al conjunt de *test* / *only available for the test split)*| int  | L'índex de similaritat de Jaccard de la columna *responses* al CAT ManyNames i el *Human-annotated test set* / *Jaccard similarity index of the responses column in CAT ManyNames and the Human_annotated_testset* |
 |*raw_responses* (només disponible al *Human-annotated test set* / only available for the Human-annotated test set)| dict | Respostes abans de ser corregides i filtrades amb el seu recompte / *Responses before being corrrected and filtered and their counts* |
 
-# Com citar el CAT ManyNames / Citing CAT ManyNames
+# Com citar el CAT ManyNames / *Citing CAT ManyNames*
 
-# Informació addicional / Additional information
+# Informació addicional / *Additional information*
 
 CAT ManyNames té una llicència Creative Commons Attribution 4.0 International License.
 Aquest projecte ha estat recolçat per la unitat de Text Mining del Barcelona Supercomputing Center.

@@ -29,9 +29,9 @@ El CAT ManyNames i el *Human-annotated test set* es proporcionen en un fitxer de
 
 Els noms de les columnes són els següents (les columnes més importants estan enumerades primer):
 
-*The dataset and the human-annotated test set are provided in a tab-separated text file (.tsv). The first rows contain the column labels. Nested data is stored as Python dictionaries (i.e., "{key: value}"). 
+*The dataset and the human-annotated test set are provided in a tab-separated text file (.tsv). The first rows contain the column labels. Nested data is stored as Python dictionaries (i.e., "{key: value}").*
 
-The columns are labelled as follows (the most important columns are listed first):*
+*The columns are labelled as follows (the most important columns are listed first):*
 
 |Columna / *Column*             |Tipus / *Type*	 |Descripció / *Description* |
 | --- | --- | --- |

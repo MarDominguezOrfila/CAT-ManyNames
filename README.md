@@ -7,7 +7,7 @@ CAT ManyNames is the Catalan version of the ManyNames dataset (https://github.co
 
 # Human-annotated test set
 
-The Human-annotated test set of the CAT ManyNames dataset has been built to evaluate the quality of the CAT ManyNames dataset and can also be suitable for evaluating any other object naming task in Catalan. Its corpus consists of 1,072 images and their corresponding annotations (ca. 10 annotations per image).
+The Human-annotated test set has been built to evaluate the quality of the CAT ManyNames dataset. Its corpus consists of 1,072 images and their corresponding annotations (ca. 10 annotations per image).
 
 Notation
 
